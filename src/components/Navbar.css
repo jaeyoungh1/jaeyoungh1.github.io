@@ -7,7 +7,32 @@ nav {
 
 .menu-icon {
     width: 24px;
+    position: fixed;
+    right: 36px;
+}
 
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    height: fit-content;
+    width: 128px;
+    top: 64px;
+    right:36px;
+    padding: 12px 12px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.272);
+    text-align: right;
+}
+.menu > div {
+    padding: 2px 0;
+}
+.menu>div:hover {
+    cursor: pointer;
+    transition-duration: 200ms;
+    color: black;
 }
 
 .my-info {
