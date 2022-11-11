@@ -2,6 +2,8 @@ import React from 'react'
 import water from '../icons/water2.mp4'
 import me from '../icons/me2.jpg'
 import cawfee from '../icons/cawfee.png'
+import heirbnb from '../icons/heirbnb.png'
+import squeal from '../icons/squeal.png'
 import './Body.css'
 
 export default function Body() {
@@ -19,8 +21,8 @@ export default function Body() {
                     to problems.
 
                     I'm a team player who's always down to take on the challenge of struggling through an interesting puzzle.
-                    I also have a personal passion for coffee, cats, and corny jokes 🌽 . Feel free to contact me for job opportunities,
-                    questions, or just to say hi. Hope to sea you soon!
+                    I also find personal joy in coffee, cats, and corny jokes 🌽 . Feel free to contact me for
+                    questions, collabs, or just to say hi. Hope to sea you soon!
                 </p>
             </div>
             <div className='technologies'>
@@ -49,26 +51,80 @@ export default function Body() {
                 <div className='project-preview'>
                     <div className='proj'>
                         <div className='proj-img'>
-                            <img alt='cawfee prev' src={cawfee}/>
+                            <img alt='cawfee prev' src={cawfee} />
                         </div>
                         <div className='proj-details'>
-                            <div>Drink Cawfee</div>
-                            <div>Coffee Curation and Shopping App</div>
+                            <div className='proj-title'>DRINK CAWFEE</div>
+                            <div className='proj-subtitle'>Coffee Curation and Shopping App</div>
                             <div className='line-break'></div>
-                            <div>Technologies Used</div>
-                            <div>Python, Flask, SQLAlchemy, PostgreSQL, JavaScript, React Redux, Docker</div>
-                            <div>Drink Cawfee is a coffee curation and shopping site inspired by Drink Trade. Users are
-                                able to curate, review, and buy coffee from local CA roasters.
-                                As my second solo full-stack project from start to finish, I chose a site that
-                                would challenge both my backend and frontend skills: I had to craft
-                                a well-thought-out relational database to ensure curation and shopping were efficient, as 
-                                well as be especially detail oriented when creating an intuitive user experience for an eCommerce website.
+                            <div className='proj-title tech-used'>Technologies Used</div>
+                            <div className='tech-used'>Python, Flask, SQLAlchemy, PostgreSQL, JavaScript, React Redux, Docker</div>
+                            <div className='proj-desc'>Drink Cawfee is a coffee curation and shopping site inspired by Drink Trade, where users are
+                                able to curate, review, and buy coffee from local CA roasters. The project was a reminder to myself to support local roasters,
+                                take the occassional coffee break from coding, and to turn my daily morning pourover routine into a mindful ritual. The early bird gets the brew!
                             </div>
-                            <div>
-                                Live Site
+                            <div className='buttons'>
+
+                                <a className='button' href='https://drink-cawfee.herokuapp.com'>
+                                    Live Site
+                                </a>
+                                <a className='button' href='https://github.com/jaeyoungh1/drink_cawfee'>
+                                    Github
+                                </a>
                             </div>
-                            <div>
-                                Github
+                        </div>
+
+                    </div>
+                    <div className='proj'>
+                        
+                        <div className='proj-details right'>
+                            <div className='proj-title'>SQUEAL</div>
+                            <div className='proj-subtitle'>Restaurant Listing and Review App</div>
+                            <div className='line-break right'></div>
+                            <div className='proj-title tech-used'>Technologies Used</div>
+                            <div className='tech-used'>Python, Flask, SQLAlchemy, PostgreSQL, JavaScript, React Redux, Google Maps API, Docker</div>
+                            <div className='proj-desc'>Squeal is a Yelp clone where users are able to review and list their local restaurants. This was a group
+                                project done with <a href='https://github.com/amanduhkv'>Amanda Vien</a>, <a href='https://macflyosx.github.io/'>Brandon Tasaki</a>, and <a href='https://www.michaelhjung.com/'>Michael Jung</a>. Our focus was to deliver a sleek and intuitive
+                            user experience.
+                            </div>
+                            <div className='buttons'>
+
+                                <a className='button' href='https://squeal-yelp.herokuapp.com/'>
+                                    Live Site
+                                </a>
+                                <a className='button' href='https://github.com/amanduhkv/Squeal'>
+                                    Github
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className='proj-img'>
+                            <img alt='squeal prev' src={squeal} />
+                        </div>
+
+                    </div>
+                    <div className='proj'>
+                        <div className='proj-img'>
+                            <img alt='heirbnb prev' src={heirbnb} />
+                        </div>
+                        <div className='proj-details'>
+                            <div className='proj-title'>HEIR BNB</div>
+                            <div className='proj-subtitle'>Homestay and Vacation Rental Platform</div>
+                            <div className='line-break'></div>
+                            <div className='proj-title tech-used'>Technologies Used</div>
+                            <div className='tech-used'>Express, Sequelize, SQLite3, PostgreSQL, JavaScript, React Redux, NodeJS</div>
+                            <div className='proj-desc'>HeirBnB is a homestay and vacation rental platform for the upper echelon! Inspired by AirBnB, and a nod to 
+                            Tahani Al-Jamil from "The Good Place". As my very first full-stack web application, this project occupies a special place in my heart as the
+                            first project where I learned how to leverage RESTful APIs, how to connect backend to frontend, manage Redux state, and everything in between.
+                            </div>
+                            <div className='buttons'>
+
+                                <a className='button' href='https://heir-bnb-airbnbclone.herokuapp.com/'>
+                                    Live Site
+                                </a>
+                                <a className='button' href='https://github.com/jaeyoungh1/heir-bnb'>
+                                    Github
+                                </a>
                             </div>
                         </div>
 
