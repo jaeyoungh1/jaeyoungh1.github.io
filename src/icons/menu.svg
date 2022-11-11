@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>hamburger-menu-svgrepo-com (1)-svg</title>
+	<defs>
+		<image  width="14" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMAQMAAABoTh6ZAAAAAXNSR0IB2cksfwAAAAZQTFRF////AAAAVcLTfgAAAAJ0Uk5T/wDltzBKAAAAEUlEQVR4nGNgAIP/f6AIGxcA1hEL47MxKcUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: none } 
+	</style>
+	<path id="icon-bound" class="s0" d="m0 0h16v16h-16z"/>
+	<use id="Layer" href="#img1" x="1" y="2"/>
+</svg>
