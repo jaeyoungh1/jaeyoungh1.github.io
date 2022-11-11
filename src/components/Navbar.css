@@ -9,6 +9,7 @@ nav {
     width: 24px;
     position: fixed;
     right: 36px;
+    width: fit-content;
 }
 
 .menu-icon:hover {
@@ -50,7 +51,6 @@ nav {
     width: 9ch;
     animation: blink .5s step-end infinite alternate;
     white-space: nowrap;
-    overflow: hidden;
     border-right: 3px solid
 }
 
