@@ -7,7 +7,7 @@ export default function Navbar() {
     const [openMenu, setOpenMenu] = useState(false)
     function scrollTo(str) {
         let ele = document.querySelector(`.${str}`)
-        if (str === 'technologies') {
+        if (str === 'technologies' || str==='aboutme') {
             ele.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
         } else {
@@ -50,6 +50,8 @@ export default function Navbar() {
                 </div>
                 {openMenu && (
                     <div className='menu' >
+                        <div className='scroll' onClick={() => scrollTo('aboutme')}>About Me</div>
+
                         <div className='scroll' onClick={() => scrollTo('technologies')}>Technologies</div>
                         <div className='scroll' onClick={() => scrollTo('projects')}>Projects</div>
                         <div className='scroll' onClick={() => scrollTo('contact')}>Contact Me</div>
