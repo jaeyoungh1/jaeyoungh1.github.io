@@ -50,8 +50,8 @@
 }
 
 .projects {
-    background-color: #36707f42;
-    background-image: linear-gradient(344deg, #36707fd8 0%, #1d285ebb 100%);
+    background-color: #36707f67;
+    background-image: linear-gradient(192deg, #36707f96 0%, #1d285e 100%);
     padding: 14px 24px;
 }
 
@@ -130,7 +130,30 @@ a:hover {
     transition-duration: 200ms;
     color: rgb(106, 152, 244);
 }
+
 .button:hover {
     transition-duration: 200ms;
     border: 1px solid rgb(106, 152, 244);
+}
+
+
+.footer {
+    background: #162052;
+}
+
+.contact {
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    padding: 36px 0;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding-bottom: 64px;
+}
+.fa-brands, .fa-solid {
+    font-size: 72px;
 }

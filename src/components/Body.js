@@ -7,6 +7,7 @@ import squeal from '../icons/squeal.png'
 import './Body.css'
 
 export default function Body() {
+    
 
     return (
         <>
@@ -114,8 +115,8 @@ export default function Body() {
                             <div className='proj-title tech-used'>Technologies Used</div>
                             <div className='tech-used'>Express, Sequelize, SQLite3, PostgreSQL, JavaScript, React Redux, NodeJS</div>
                             <div className='proj-desc'>HeirBnB is a homestay and vacation rental platform for the upper echelon! Inspired by AirBnB, and a nod to 
-                            Tahani Al-Jamil from "The Good Place". As my very first full-stack web application, this project occupies a special place in my heart as the
-                            first project where I learned how to leverage RESTful APIs, how to connect backend to frontend, manage Redux state, and everything in between.
+                            Tahani Al-Jamil from "The Good Place". Users can explore, review, book, and list rentals. As my very first full-stack web application, this project occupies a special place in my heart as the
+                            first project where I learned how to leverage RESTful APIs, connect backend to frontend, manage Redux state, and everything in between.
                             </div>
                             <div className='buttons'>
 
