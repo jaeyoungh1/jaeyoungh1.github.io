@@ -1,0 +1,45 @@
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 24px;
+    margin-top: 24px;
+    background: rgba(3, 3, 20, 0.484);
+    padding: 12px 12px;
+    border-radius: 14px;
+}
+
+.profpic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.desc {
+    color: white;
+    font-size: 20px;
+}
+
+.div-title {
+    font-size: 36px;
+    margin-top: 48px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    width: 60%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 24px;
+    background: rgba(255, 255, 255, 0.613);
+    padding: 18px 12px;
+    border-radius: 14px;
+}
