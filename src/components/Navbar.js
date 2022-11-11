@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Navbar.css'
 import menu from '../icons/menu.svg'
 
@@ -7,15 +7,28 @@ export default function Navbar() {
     const [openMenu, setOpenMenu] = useState(false)
     function scrollTo(str) {
         let ele = document.querySelector(`.${str}`)
-        console.log("ELE", ele)
         if (str === 'technologies') {
-            ele.scrollIntoView({ behavior: 'smooth', block: 'center'})
+            ele.scrollIntoView({ behavior: 'smooth', block: 'center' })
 
         } else {
 
             ele.scrollIntoView({ behavior: 'smooth' })
         }
     }
+
+
+    useEffect(() => {
+        if (!openMenu) return;
+
+        const closeMenu = () => {
+            setOpenMenu(false);
+        };
+
+        document.addEventListener('click', closeMenu);
+
+        return () => document.removeEventListener("click", closeMenu);
+    }, [openMenu]);
+
 
     return (
         <>
@@ -37,9 +50,9 @@ export default function Navbar() {
                 </div>
                 {openMenu && (
                     <div className='menu' >
-                        <div onClick={() => scrollTo('technologies')}>Technologies</div>
-                        <div onClick={() => scrollTo('projects')}>Projects</div>
-                        <div onClick={() => scrollTo('contact')}>Contact Me</div>
+                        <div className='scroll' onClick={() => scrollTo('technologies')}>Technologies</div>
+                        <div className='scroll' onClick={() => scrollTo('projects')}>Projects</div>
+                        <div className='scroll' onClick={() => scrollTo('contact')}>Contact Me</div>
                     </div>
                 )}
             </nav>

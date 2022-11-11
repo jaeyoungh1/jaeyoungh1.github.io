@@ -18,7 +18,7 @@ nav {
 .menu {
     position: fixed;
     height: fit-content;
-    width: 128px;
+    width: fit-content;
     top: 64px;
     right:36px;
     padding: 12px 12px;
