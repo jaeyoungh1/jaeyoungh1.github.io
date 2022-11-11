@@ -5,9 +5,9 @@
     width: 70%;
     margin: auto;
     gap: 24px;
-    margin-top: 24px;
+    margin-top: 48px;
     background: rgba(3, 3, 20, 0.484);
-    padding: 12px 12px;
+    padding: 18px 18px;
     border-radius: 14px;
 }
 
@@ -24,22 +24,58 @@
 }
 
 .div-title {
-    font-size: 36px;
+    font-size: 42px;
     margin-top: 48px;
     color: white;
     text-align: center;
     font-weight: 500;
 }
+.technologies {
+    margin: 64px 0;
+}
 .tech-icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 28px;
-    width: 60%;
+    gap: 36px;
+    width: 50%;
     flex-wrap: wrap;
     margin: auto;
     margin-top: 24px;
     background: rgba(255, 255, 255, 0.613);
     padding: 18px 12px;
     border-radius: 14px;
+}
+
+.projects {
+    background: rgb(17, 45, 67);
+    padding: 14px 24px;
+}
+
+.project-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 36px;
+}
+
+.line-break {
+    height: 1px;
+    background-color: white;
+    width: 50%;
+    margin: 4px 0;
+}
+.proj {
+    display: flex;
+    gap: 24px;
+}
+.proj-img > img {
+    width: 500px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.proj-details {
+    color: white;
 }
