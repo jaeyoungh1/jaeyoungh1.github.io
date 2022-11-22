@@ -7,7 +7,7 @@ import squeal from '../icons/squeal.png'
 import './Body.css'
 
 export default function Body() {
-    
+
 
     return (
         <>
@@ -45,6 +45,8 @@ export default function Body() {
                     <img alt='python' height='80' width='80' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
                     <img alt='javascript' height='80' width='80' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                     <img alt='nodejs' height='80' width='80' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" />
+                    <img alt='aws' height='80' width='80' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+
                 </div>
             </div>
             <div className='projects'>
@@ -77,7 +79,7 @@ export default function Body() {
 
                     </div>
                     <div className='proj'>
-                        
+
                         <div className='proj-details right'>
                             <div className='proj-title'>SQUEAL</div>
                             <div className='proj-subtitle'>Restaurant Listing and Review App</div>
@@ -86,7 +88,7 @@ export default function Body() {
                             <div className='tech-used'>Python, Flask, SQLAlchemy, PostgreSQL, JavaScript, React Redux, Google Maps API, Docker</div>
                             <div className='proj-desc'>Squeal is a Yelp clone where users are able to review and list their local restaurants. This was a group
                                 project done with <a href='https://github.com/amanduhkv'>Amanda Vien</a>, <a href='https://macflyosx.github.io/'>Brandon Tasaki</a>, and <a href='https://www.michaelhjung.com/'>Michael Jung</a>. Our focus was to deliver a sleek and intuitive
-                            user experience.
+                                user experience.
                             </div>
                             <div className='buttons'>
 
@@ -114,9 +116,9 @@ export default function Body() {
                             <div className='line-break'></div>
                             <div className='proj-title tech-used'>Technologies Used</div>
                             <div className='tech-used'>Express, Sequelize, SQLite3, PostgreSQL, JavaScript, React Redux, NodeJS</div>
-                            <div className='proj-desc'>HeirBnB is a homestay and vacation rental platform for the upper echelon! Inspired by AirBnB, and a nod to 
-                            Tahani Al-Jamil from "The Good Place". Users can explore, review, book, and list rentals. As my very first full-stack web application, this project occupies a special place in my heart as the
-                            first project where I learned how to leverage RESTful APIs, connect backend to frontend, manage Redux state, and everything in between.
+                            <div className='proj-desc'>HeirBnB is a homestay and vacation rental platform for the upper echelon! Inspired by AirBnB, and a nod to
+                                Tahani Al-Jamil from "The Good Place". Users can explore, review, book, and list rentals. As my very first full-stack web application, this project occupies a special place in my heart as the
+                                first project where I learned how to leverage RESTful APIs, connect backend to frontend, manage Redux state, and everything in between.
                             </div>
                             <div className='buttons'>
 

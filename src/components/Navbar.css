@@ -48,17 +48,17 @@ nav {
     font-weight: 700;
     font-size: 48px;
     color: white;
-    width: 9ch;
-    animation: blink .5s step-end infinite alternate;
+    /* width: 9ch; */
+    /* animation: blink .5s step-end infinite alternate; */
     white-space: nowrap;
-    border-right: 3px solid
+    /* border-right: 3px solid */
 }
 
-@keyframes blink {
+/* @keyframes blink {
     50% {
         border-color: transparent
     }
-}
+} */
 
 .title {
     font-weight: 300;
