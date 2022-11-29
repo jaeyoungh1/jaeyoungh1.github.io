@@ -34,7 +34,7 @@ export default function Navbar() {
         <>
             <nav>
                 <div className='logo'>
-                    JH
+                    <a href='/Jae_Hwang_resume.pdf' download>JH</a>
                 </div>
                 <div className='my-info'>
                     <div className='name'>
@@ -54,6 +54,9 @@ export default function Navbar() {
 
                         <div className='scroll' onClick={() => scrollTo('technologies')}>Technologies</div>
                         <div className='scroll' onClick={() => scrollTo('projects')}>Projects</div>
+                        <div>
+                        <a className='scroll' href='/Jae_Hwang_resume.pdf' download>Resume</a>
+                        </div>
                         <div className='scroll' onClick={() => scrollTo('contact')}>Contact Me</div>
                     </div>
                 )}

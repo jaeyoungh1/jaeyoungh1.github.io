@@ -6,10 +6,10 @@ nav {
 }
 
 .menu-icon {
-    width: 24px;
+    width: 28px;
     position: fixed;
     right: 36px;
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 .menu-icon:hover {
@@ -24,7 +24,7 @@ nav {
     right:36px;
     padding: 12px 12px;
     border-radius: 4px;
-    background: rgba(255, 255, 255, 0.272);
+    background: rgba(255, 255, 255, 0.372);
     text-align: right;
 }
 .menu > div {
@@ -68,11 +68,12 @@ nav {
     margin-top: 4px;
 }
 
-.logo {
+.logo > a {
     font-style: italic;
     font-weight: 600;
     font-size: 24px;
     color: white;
+    text-decoration: none;
 }
 
 .body {
@@ -87,4 +88,12 @@ video {
     position: fixed;
     top: 0;
     z-index: -1;
+}
+.scroll {
+    text-decoration: none;
+}
+.scroll:hover {
+    cursor: pointer;
+    transition-duration: 300ms;
+    color: black;
 }
