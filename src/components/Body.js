@@ -17,9 +17,9 @@ export default function Body() {
             <div className='aboutme'>
                 <img className='profpic' alt='me' src={me} />
                 <p className='desc'>
-                    I'm a full-stack software engineer based in the South Bay, who's passionate about
-                    web development. I love the relationship between functionality and aesthetic, and finding creative solutions
-                    to problems.
+                    I'm a full-stack software engineer based in the Bay Area, who's passionate about
+                    solving real problems with meaningful tech solutions. I love the relationship between functionality and aesthetic,
+                    creative fixes, collaborating cross-functionally, and celebrating small wins.
 
                     I'm a team player who's always down to take on the challenge of struggling through an interesting puzzle.
                     I also find personal joy in coffee, cats, and corny jokes 🌽 . Feel free to contact me for
