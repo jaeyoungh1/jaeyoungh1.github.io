@@ -22,8 +22,8 @@ export default function Body() {
                     creative fixes, collaborating cross-functionally, and celebrating small wins.
 
                     I'm a team player who's always down to take on the challenge of struggling through an interesting puzzle.
-                    I also find personal joy in coffee, cats, and corny jokes 🌽 . Feel free to contact me for
-                    questions, collabs, or just to say hi. Hope to sea you soon!
+                    I also find personal joy in coffee, cats, and hiking . Feel free to contact me for
+                    questions, collabs, or just to say hi!
                 </p>
             </div>
             <div className='technologies'>
@@ -69,7 +69,7 @@ export default function Body() {
                             <div className='buttons'>
 
                                 <a className='button' href='https://drink-cawfee.herokuapp.com'>
-                                    Live Site
+                                    Live Site Unavailable
                                 </a>
                                 <a className='button' href='https://github.com/jaeyoungh1/drink_cawfee'>
                                     Github
@@ -93,7 +93,7 @@ export default function Body() {
                             <div className='buttons'>
 
                                 <a className='button' href='https://squeal-yelp.herokuapp.com/'>
-                                    Live Site
+                                    Live Site Unavailable
                                 </a>
                                 <a className='button' href='https://github.com/amanduhkv/Squeal'>
                                     Github
@@ -123,7 +123,7 @@ export default function Body() {
                             <div className='buttons'>
 
                                 <a className='button' href='https://heir-bnb-airbnbclone.herokuapp.com/'>
-                                    Live Site
+                                    Live Site Unavailable
                                 </a>
                                 <a className='button' href='https://github.com/jaeyoungh1/heir-bnb'>
                                     Github
